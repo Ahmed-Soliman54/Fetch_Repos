@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigDiv {
+  width: 800px;
+  margin: auto;
+  background-color: #ccc;
+  font-size: 20px;
+}
+
+.Fetch-Container {
+  width: 800px;
+  margin: auto;
+  background-color: #F6F6F6;
+}
+.Fetch-Container .Inputs {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Fetch-Container .Inputs input {
+  width: 100%;
+  border: none;
+  height: 54px;
+  padding-left: 15px;
+  font-size: 20px;
+  outline-color: #ff5722;
+}
+.Fetch-Container .Inputs input::-moz-placeholder {
+  font-size: 20px;
+}
+.Fetch-Container .Inputs input::placeholder {
+  font-size: 20px;
+}
+.Fetch-Container .Inputs span {
+  height: 54px;
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  width: 140px;
+  margin-left: 10px;
+  line-height: 54px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Data-Show {
+  padding: 20px;
+  background-color: #E0E0E0;
+}
+.Data-Show span {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.DivBox {
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.DivBox .Rep a {
+  text-decoration: none;
+  color: #ff5722;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.DivBox .Rep span {
+  color: black;
+  font-weight: normal;
+}
+
+.DivBox:not(:last-child) {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=index.css.map */
